@@ -33,7 +33,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 :root {
     --background-color: #000;
-    --foreground-color: #fff;
+    --foreground-color: #e5e5e5;
     --link-seperator-color: #fca311;
     --link-visited-color: #E5E5E5;
 }
@@ -113,7 +113,11 @@ main h1 {
     font-style: italic;
 }
 
-main .summary {
+section {
+    margin-bottom: 2.5em;
+}
+
+.summary {
     margin-top: -10px;
     font-size: 0.89em;
 }
