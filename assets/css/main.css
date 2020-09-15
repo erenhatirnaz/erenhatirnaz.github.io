@@ -109,12 +109,13 @@ main {
     padding: .5em;
 }
 
-main pre {
-    margin-top: -10px;
-}
-
 main h1 {
     font-style: italic;
+}
+
+main .summary {
+    margin-top: -10px;
+    font-size: 0.89em;
 }
 
 div#presence a {
