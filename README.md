@@ -11,3 +11,7 @@ like and adapt for your website or to use this one as a starting point for your
 projects.
 
 [license]: ./LICENSE
+
+* Inspired by [Göktuğ's Website][goktug].
+
+[goktug]: https://www.gkayaalp.com/
