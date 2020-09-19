@@ -31,12 +31,25 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVE
 IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+/* Gruvbox Dark color scheme - source: https://github.com/morhetz/gruvbox#dark-mode-1 */
 :root {
-    --background-color: #000;
-    --foreground-color: #e5e5e5;
-    --link-seperator-color: #fca311;
-    --link-visited-color: #E5E5E5;
+    --background-color: #282828;
+    --foreground-color: #EBDBB2;
+    --link-seperator-color: #FE8019;
+    --link-visited-color: #A89984;
+    --h1-color: #98971A;
+    --h3-color: #8EC07C;
 }
+
+/* Gruvbox light color scheme - source: https://github.com/morhetz/gruvbox#light-mode-1 */
+/* :root { */
+/*     --background-color: #fbf1c7; */
+/*     --foreground-color: #282828; */
+/*     --link-seperator-color: #af3a03; */
+/*     --link-visited-color: #7c6f64; */
+/*     --h1-color: #98971a; */
+/*     --h3-color: #427b58; */
+/* } */
 
 body {
     background-color: var(--background-color);
@@ -111,6 +124,11 @@ main {
 
 main h1 {
     font-style: italic;
+    color: var(--h1-color);
+}
+
+main h3 {
+    color: var(--h3-color);
 }
 
 section {
